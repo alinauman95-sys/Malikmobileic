@@ -1,0 +1,6 @@
+{
+  "name": "Malik Rizwan Business Suite",
+  "description": "Professional scrap business management suite featuring advanced financial analytics, net profit tracking, custom branded billing, and universal IC decoding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

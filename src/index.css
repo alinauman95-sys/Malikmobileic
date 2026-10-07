@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', Arial, sans-serif;
+  }
+  .font-sans-custom {
+    font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, sans-serif;
+  background-color: #e2e8f0;
+  color: #0f172a;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-shadow-none {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
+.capture-mode .no-print {
+  display: none !important;
+}
+
+.capture-mode .print-only {
+  display: block !important;
+}
+
+.capture-mode {
+  background-color: white !important;
+}
